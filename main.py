@@ -34,7 +34,7 @@ def main(project_id):
         for row in query_response['rows']:
             print('\t'.join(field['v'] for field in row['f']))
         # [END print_results]
-
+        print ('cacheHit: {0}'.format(query_response['cacheHit']))
     except HttpError as err:
         print('Error: {}'.format(err.content))
         raise err
@@ -42,5 +42,6 @@ def main(project_id):
 
 if __name__ == '__main__':
     # The id of the project to run queries under.
-    project_id = input("Enter the project ID: ")
+    #project_id = input("Enter the project ID: ")
+    project_id = open('/credentials/project_id').read().strip()
     main(project_id)
