@@ -4,6 +4,7 @@ Python client for working with the Bigquery GitHub Archive
 ## Usage
 ```
 docker-compose run main /bin/bash
+python3 main.py
 ```
 
 ## Notes
@@ -36,3 +37,6 @@ Set the following in the job configuration to CREATE_NEVER:
 configuration.query.createDisposition
 configuration.load.createDisposition
 ```
+
+### How to create a service key to use Application Default credentials
+https://cloud.google.com/docs/authentication#preparation
