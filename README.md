@@ -18,6 +18,9 @@ python3 main.py
 * If using the BigQuery API, the cacheHit property in the query result is set to true.
 * From https://cloud.google.com/bigquery/querying-data#querycaching
 
+### Python API doc
+https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/python/latest/bigquery_v2.jobs.html
+
 ### Practical examples of cached query checking
 #### Jobs: query (synchronous)
 https://cloud.google.com/bigquery/docs/reference/v2/jobs/query
