@@ -1,4 +1,4 @@
 main:
   build: .
   volumes:
-    - .:/src
+    - ../src:/src
