@@ -3,6 +3,7 @@ Python client for working with the Bigquery GitHub Archive
 
 ## Usage
 ```
+cd dev
 docker-compose run main /bin/bash
 python3 main.py
 ```
